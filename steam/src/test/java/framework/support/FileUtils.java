@@ -34,10 +34,14 @@ public class FileUtils {
 
     public static void deleteAllFilesFromFolder(){
         System.out.println(dirDownloadedFiles);
-        for (File myFile : new File(dirDownloadedFiles).listFiles()){
-            if(myFile==null)
-                break;
-            if (myFile.isFile()) myFile.delete();
+        try {
+            for (File myFile : new File(dirDownloadedFiles).listFiles()) {
+                if (myFile == null)
+                    break;
+                if (myFile.isFile()) myFile.delete();
+            }
+        }catch (Exception e){
+            
         }
     }
 }

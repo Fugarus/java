@@ -1,17 +1,13 @@
 package webdriver;
 
-import com.beust.jcommander.Parameter;
-import com.sun.org.glassfish.gmbal.ParameterNames;
 import org.apache.commons.io.FileUtils;
 import org.json.JSONObject;
-import org.junit.runners.Parameterized;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.AssertJUnit;
 import org.testng.SkipException;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
 import webdriver.Browser.Browsers;
 import webdriver.annotations.Bug;
 import webdriver.annotations.Jira;

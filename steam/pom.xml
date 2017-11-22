@@ -305,12 +305,6 @@
             <version>4.5.2</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>aqa.webdriver.framework</groupId>
-            <artifactId>aqa-framework</artifactId>
-            <version>1.5.0-SNAPSHOT</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <build>
