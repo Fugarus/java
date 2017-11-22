@@ -1,0 +1,17 @@
+# IDE specific  #
+###############################
+
+.project
+.pydevproject
+/.git
+/.settings
+.idea/
+libspecs/
+red.xml
+log.html
+output.xml
+report.html
+*.iml
+target/
+surefire-reports/
+src/main/
