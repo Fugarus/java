@@ -102,9 +102,9 @@ final public class BrowserFactory {
 
     private static RemoteWebDriver getWebDriver(final Browsers type, Proxy proxy) {
         DesiredCapabilities capabilitiesProxy = new DesiredCapabilities();
-        if (proxy != null) {
-            capabilitiesProxy.setCapability(CapabilityType.PROXY, proxy);
-        }
+//        if (proxy != null) {
+//            capabilitiesProxy.setCapability(CapabilityType.PROXY, proxy);
+//        }
         switch (type) {
             case CHROME:
                 return getChromeDriver(proxy);
