@@ -41,7 +41,7 @@ public class FileUtils {
                 if (myFile.isFile()) myFile.delete();
             }
         }catch (Exception e){
-            
+
         }
     }
 }
